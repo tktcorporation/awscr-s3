@@ -5,7 +5,7 @@ module Awscr::S3
     getter size
     getter number
 
-    def initialize(@offset : Int32, @size : Int32, @number : Int32)
+    def initialize(@offset : Float64, @size : Int32, @number : Int32)
     end
   end
 
